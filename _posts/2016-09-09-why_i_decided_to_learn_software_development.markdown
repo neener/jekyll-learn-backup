@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why I decided to Learn Software Development"
-date:   2016-09-09 16:57:41 +0000
+date:   2016-09-09 12:57:41 -0400
 ---
 
 
@@ -14,9 +14,9 @@ Deeply entrenched in online forums, blogging, MySpace, Napster, I grew up with t
 
 I come from an Arts background. My Senior Thesis in college explored electrical wiring and lighting in large scale installations. 
 
-I viewed software as a means for creation, but I had never thought of creating software. As an artist, I used various software to help aid in the creation of visual and conceptual art, played a role in the “post-internet” phenomenon (ultimately commenting on what it meant to have grown up with this technology and how we use it as artists), and believed in the power of creating visual, graphical representations of information. At this time I was very interested in “Systems” art. https://en.wikipedia.org/wiki/Systems_art
+I viewed software as a means for creation, but I had never thought of creating software. As an artist, I used various software to help aid in the creation of visual and conceptual art, played a role in the “post-internet” phenomenon (ultimately commenting on what it meant to have grown up with this technology and how we use it as artists), and believed in the power of creating visual, graphical representations of information. At this time I was very interested in [“Systems” art](https://en.wikipedia.org/wiki/Systems_art). 
 
-Some great reading about the artists who defined Systems art can be found here: https://artexetra.files.wordpress.com/2009/02/shanken_invest_art_um_sm.pdf
+Some great reading about the artists who defined Systems art can be found [here](https://artexetra.files.wordpress.com/2009/02/shanken_invest_art_um_sm.pdf): 
 
 **Jack Burnham** - 
 
@@ -43,7 +43,7 @@ Some great reading about the artists who defined Systems art can be found here: 
 ![](http://www.tkwa.com/img/Picture-31.png)
 *￼Alexander, 15 Principle Elements of Wholeness*
 
-"Far from what may be considered the more obscure experiments of architects, the most consequential architecture in the world has already become information. Still somewhat obscure only because of its overwhelming ubiquity, space is itself an infrastructural technology that is mobile and monetized, traveling around the world as a repeatable phenomenon. Compared to the relative trickle of space made by special practitioners, these technologies produce a fire hose blast. The most radical changes to the globalizing world are being written in the protocols or softwares of infrastructural space."  - Keller Easterling - http://www.e-flux.com/journal/an-internet-of-things/
+"Far from what may be considered the more obscure experiments of architects, the most consequential architecture in the world has already become information. Still somewhat obscure only because of its overwhelming ubiquity, space is itself an infrastructural technology that is mobile and monetized, traveling around the world as a repeatable phenomenon. Compared to the relative trickle of space made by special practitioners, these technologies produce a fire hose blast. The most radical changes to the globalizing world are being written in the protocols or softwares of infrastructural space."  - [Keller Easterling ](http://www.e-flux.com/journal/an-internet-of-things/)
 
 Ultimately, learning how to develop software has come out of a desire to have a conversation about a variety of topics affecting global communities. What is the most effective form of communication?Organization and the ability to create graphical representations of ideas and information are my favorite aspects of being able to develop software. The future of the artist is not the computer user, but someone who understands how to build an application. The most effective communicators will be ones who understand and can create software. 
 
