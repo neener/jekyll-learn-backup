@@ -104,7 +104,7 @@ The above code is defining the reader. The reader exposes the instance variable.
 **nothing is what it seems**
 
 ```
-1+ 1
+1 + 1
 ```
 
 following the rule that "The only thing I can do in Ruby, is call methods on objects" - [Collaborating Objects Pure OO w/ TDD](https://www.youtube.com/watch?v=iYcQ693LXck)
