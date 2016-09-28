@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Macros in Object Oriented Ruby"
-date:   2016-09-28 04:10:34 +0000
+date:   2016-09-28 00:10:34 -0400
 ---
 
 
@@ -35,7 +35,7 @@ What is a Macro? - its a shortcut - or any piece of code that writes code for yo
 
 attr_accessor is the first macro we are introduced to explicitly. 
 
-Every object can either read what object has already been created (with a reader method) or it can also write a new object into being (with a writer method), or both.
+Every object can either read what object has already been created (with a reader method) or it can write a new object into being (with a writer method), or both.
 
 attr_accessor sets an object with a setter method and a getter method, through symbol notation. For example:
 
