@@ -79,7 +79,7 @@ whenever you don’t see a receiver, the implicit receiver of ruby is always sel
 
 The above code describing attr_accessor is actually much more verbose than writing out two method definitions for every new object.  It was fun to see how verbose the heart of the attr_accessor actually is from the [Intro to Object Orientation - Q/A](https://www.youtube.com/watch?v=ab11lJJKm8M)
 
-The following code is what give attr_accessor its functionality.
+The following code is what gives attr_accessor its functionality.
 
 ```
 class Dog
