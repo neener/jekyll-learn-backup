@@ -67,7 +67,7 @@ end
 end
 ```
 
-The attr_accesssor, abstracts the above code into a very short and sweet line of code. If the above looks verbose comparatively we can also be more explicit about the method attr_accessor which is even further abstracted from the above code. How attr_accessor actually works is abstracted from us. This abstraction can be referred to as metaprogramming.
+The attr_accesssor, abstracts the above code into a very short and sweet line of code. If the above looks verbose comparatively we can also be more explicit about the method attr_accessor which is even further abstracted from the above code. This abstraction can be referred to as metaprogramming.
 
 **implicit and explicit receivers - metaprogramming (self)**
 
