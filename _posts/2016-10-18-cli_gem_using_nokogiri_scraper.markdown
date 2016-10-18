@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CLI GEM using Nokogiri Scraper"
-date:   2016-10-18 21:41:35 +0000
+date:   2016-10-18 17:41:35 -0400
 ---
 
 
@@ -28,7 +28,7 @@ My first method to scrape the urls looked like this:
 
 This method pushed a bunch of url objects into my empty `@@all` array (`@@all = [ ]` was set right after I defined my Prison class at the beginning of the class method.)
 
-OK great! so now I had a bunch of urls printing out my terminal, If a user selected a numbered url, I wanted it to grab each unique urls info, to do so I wrote a separate method that looked like this:
+OK great! so now I had a bunch of urls printing out to my terminal, If a user selected a numbered url, I wanted it to grab each unique urls info, to do so I wrote a separate method that looked like this:
 
 
 ```
