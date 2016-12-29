@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CRUD with raw SQL"
-date:   2016-12-29 02:34:56 +0000
+date:   2016-12-28 21:34:57 -0500
 ---
 
 
@@ -43,8 +43,8 @@ The SQL query for this would look like:
 Using * (or wildcard) allows us to select all the data from all of the columns in the categories table.
 
 
-**Update - SQL Updating
-**
+**Update - SQL Updating**
+
 The ActiveRecord `.update` method is used along with a hidden request form to update or change data.
 
 ```
@@ -62,8 +62,8 @@ The SQL query for updating this object would look like:
 
 `UPDATE categories SET title = “your_category_title_new” WHERE title = “your_category_title_old”;`
 
-**Delete - SQL Deleting
-**
+**Delete - SQL Deleting**
+
 Deleting an entry is similar to updating a an entry, which also needs a hidden request form. You locate the class by its specific parameters, In my case ‘id’, and then use the ActiveRecord method `.destroy` to erase it from your database. 
 ```
 
