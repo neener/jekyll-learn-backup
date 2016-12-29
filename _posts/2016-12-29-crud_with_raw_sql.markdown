@@ -65,8 +65,8 @@ The SQL query for updating this object would look like:
 **Delete - SQL Deleting**
 
 Deleting an entry is similar to updating a an entry, which also needs a hidden request form. You locate the class by its specific parameters, In my case ‘id’, and then use the ActiveRecord method `.destroy` to erase it from your database. 
-```
 
+```
 @category = Category.find_by_id(params[:id])
 @category.destroy
 ```
