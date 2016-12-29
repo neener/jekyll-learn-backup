@@ -9,7 +9,7 @@ After many labs using ActiveRecord, I started to rely heavily on its powerful me
 
 **Create - SQL Inserting**
 
-There are two common ActiveRecord methods used to create an object — .new` and `.create.
+Two common methods for creating an object are the Ruby method `.new` and ActiveRecord method `.create`
 
 ```
 @category = Category.new(category_params)
