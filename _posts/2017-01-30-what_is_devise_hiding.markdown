@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What is Devise Hiding?"
-date:   2017-01-30 11:01:12 +0000
+date:   2017-01-30 06:01:13 -0500
 ---
 
 
@@ -62,11 +62,11 @@ Devise includes these helpers so you don’t have to write them.
 
 
 Devise:
-- generates routes for you 
-- generates a file in ‘config/initializers/devise.rb’ where the best devise docs are located
-- handles secure passwords 
-- comes with prebuilt helper methods such as `user_signed_in?` and `current_user`
-- is made up of modules that are applied to your User model (or what a User account can have). They are set in the User model like this:
+* generates routes for you 
+* generates a file in ‘config/initializers/devise.rb’ where the best devise docs are located
+* handles secure passwords 
+* comes with prebuilt helper methods such as `user_signed_in?` and `current_user`
+* is made up of modules that are applied to your User model (or what a User account can have). They are set in the User model like this:
 
 ```
 class User < ActiveRecord::Base
