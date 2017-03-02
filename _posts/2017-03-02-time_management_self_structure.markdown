@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Time Management / Self Structure"
-date:   2017-03-02 21:27:09 +0000
+title:  "Time Management / Self Structuring"
+date:   2017-03-02 16:27:09 -0500
 ---
 
 
