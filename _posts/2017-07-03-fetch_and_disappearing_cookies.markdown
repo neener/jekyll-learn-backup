@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Fetch and Disappearing Cookies"
-date:   2017-07-03 20:05:56 +0000
+date:   2017-07-03 16:05:56 -0400
 ---
 
 
