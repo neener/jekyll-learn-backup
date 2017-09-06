@@ -9,24 +9,24 @@ The hardest part about familiarizing myself with React and Redux was the strucut
 
 I used many different sources to reiterate the flow of how React and Redux worked together, not to mention they both have a pretty lengthy set of new terms you have to become familiar with to even talk about what is going on.
 
-This video helped me understand how middleware, a crucial part of Redux, was insterested into the application. [Video here](https://www.youtube.com/watch?v=AgO7YcJeBh4)
+This video helped me understand how middleware, a crucial part of Redux, was inserted into the application. [Video here](https://www.youtube.com/watch?v=AgO7YcJeBh4)
 
 The video walks through the application flow with React and Redux:
 
-1. The application dispatches action
+1. The application dispatches actions
 2. The actions are handled by reducers
-3. the reducers return a new state
-4. the state is stored in the store
-5. the store then passes this pack to our application
+3. The reducers return a new state
+4. The state is stored in the store
+5. The store then passes this back to our application
 
 Middleware (like Redux Thunk) is passed down between our Actions and Reducers - Once the action is dispatched and right before reaching the reducer. 
 
-For atleast a few days while introducing myself to these new terms, 'store' was one of those terms I kind of refused to totally understand, but I get it now! and its very simple. Especially reading about how some other frameworks and libraries have many 'stores'. Redux only has one store which holds your entire state tree of your application. 
+For atleast a few days while introducing myself to these new terms, 'Store' was one of those terms I kind of refused to totally understand, but I get it now! and its very simple. Especially reading about how some other frameworks and libraries have many 'stores'. Redux only has one store which holds your entire state tree of your application. 
 
 From the [Redux docs](http://redux.js.org/docs/api/Store.html): 
 'The only way to change the state inside it is to dispatch an action on it. A store is not a class. It's just an object with a few methods on it. To create it, pass your root reducing function to createStore.' 
 
-Actions and Reducers are coupled nicely and only take a few rounds to understand how they interact and then affect the View/App. 
+Actions and Reducers are coupled nicely and only take a few rounds to understand how they interact and then effect the View/App. 
 
 Say we wants to to CRUD some items, our reducers would handle this. We would need to give it an default state of an empty array. Then it would hand adding items, updating and item, and removing an item. You can think of your reducers as a controller (in Rails). 
 
