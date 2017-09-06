@@ -28,17 +28,17 @@ From the [Redux docs](http://redux.js.org/docs/api/Store.html):
 
 Actions and Reducers are coupled nicely and only take a few rounds to understand how they interact and then effect the View/App. 
 
-Say we wants to to CRUD some items, our reducers would handle this. We would need to give it an default state of an empty array. Then it would hand adding items, updating and item, and removing an item. You can think of your reducers as a controller (in Rails). 
+Say we want to CRUD some items, our reducers would handle this. We would need to give it a default state of an empty array. Then it would handle adding items, updating an item, and removing an item. You can think of your reducers as a controller (in Rails). 
 
-An action is an object that returns a type and an item. In action you use all your services to dispatch. Then you use all your actions inside of your components. 
+An action is an object that returns a type and an item. In actions you use all your services to dispatch. Then you use all your actions inside of your components. 
 
 So if you have something like 'SET_ITEM' in your reducer, it is going to find the match in your actions and run through the dispatch method in your actions.
 
-Another hurdle was routing. Redux provides a tools called react-router-redux. This [blog](https://blog.marvelapp.com/managing-the-url-in-a-redux-app/) took me through the steps of how to use the router. 
+Another hurdle was routing. Redux provides a tool called react-router-redux. This [blog](https://blog.marvelapp.com/managing-the-url-in-a-redux-app/) took me through the steps of how to use the router. 
 
-'With react-router-redux the location state is kept in your redux store as plain object. This means you can inject location information with connect as you would any other state. The LOCATION_CHANGE action is dispatched when the URL changes so you can listen for this in your reducers.
-'
-React-router-redux gives you host of methods to use for routing, like Link, Browser Router, Provider, Route, and gives you acces to 'history'.
+'With react-router-redux the location state is kept in your redux store as plain object. This means you can inject location information with connect as you would any other state. The LOCATION_CHANGE action is dispatched when the URL changes so you can listen for this in your reducers.'
+
+React-router-redux gives you a host of methods to use for routing, like Link, Browser Router, Provider, Route, and gives you acces to 'history'.
 
 This confused me for a while, but it turns out that is just a poorly named library. 
 
@@ -52,9 +52,9 @@ When you see a stateless function component, you know it's simply a function tha
 
 Stateless components force you to keep your component pure and put state management in higher level container components.
 
-You want the parent component (smart componenent) to have access to the store and the children components (dumb components).
+You want the parent component (smart componenent) to have access to the store and the children components (dumb components) to only get them as props.
 
-I found the Learn curriculm to be a good overview of React and Redux, but really i don't think I would have had a full understanding if i hadn't reviewed the [egghead videos](https://egghead.io/) or watch Dan Abramov's [youtube lectures](https://www.youtube.com/watch?v=xsSnOQynTHs&t=2s)
+I found the Learn curriculm to be a good overview of React and Redux, but I don't think I would have had a full understanding if I hadn't reviewed the [egghead videos](https://egghead.io/) or watched Dan Abramov's [youtube lectures](https://www.youtube.com/watch?v=xsSnOQynTHs&t=2s)
 
 
 
