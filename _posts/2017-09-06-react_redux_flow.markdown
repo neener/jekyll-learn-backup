@@ -5,7 +5,7 @@ date:   2017-09-06 12:36:46 -0400
 ---
 
 
-The hardest part about familiarizing myself with React and Redux was the strucutre or destructuring of the Javascript library. I sometimes fumble over what is considered a framework or library. So to clear it up, and to have written it down (atleast as a point of reference, if i still don't have it straight) - **React** is a Javascript library for building User Interfaces. **Redux** is a Javascript library for managing application state. 
+The hardest part about familiarizing myself with React and Redux was the structure or destructuring of the Javascript library. I sometimes fumble over what is considered a framework or library. So to clear it up, and to have written it down (atleast as a point of reference, if i still don't have it straight) - **React** is a Javascript library for building User Interfaces. **Redux** is a Javascript library for managing application state. 
 
 I used many different sources to reiterate the flow of how React and Redux worked together, not to mention they both have a pretty lengthy set of new terms you have to become familiar with to even talk about what is going on.
 
