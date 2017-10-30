@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Customizing Shopify Themes"
-date:       2017-10-30 03:00:38 +0000
+date:       2017-10-29 23:00:39 -0400
 permalink:  customizing_shopify_themes
 ---
 
@@ -95,7 +95,7 @@ jQuery("#emailinput").on("focus", function(){
 
 *  added pointer events and deleted some [pointer events](https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events)
 *  added a svg image as a logo using [custom settings](https://help.shopify.com/themes/liquid/objects#global-objects)
-* to get the svg from the example site i used [svg-crowbar](http://nytimes.github.io/svg-crowbar/)
+to get the svg from the example site i used [svg-crowbar](http://nytimes.github.io/svg-crowbar/)
 
 which is a bookmark tool thats allows you to grab any svg image from any website. cool!
 
